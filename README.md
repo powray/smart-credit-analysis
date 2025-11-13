@@ -2,7 +2,7 @@
 
 The project contains a containerized FastAPI backend and a React frontend to demonstrate a stateless pipeline for extracting transaction data from bank statements and producing a PDF Credit Trust Score report enriched by OpenAI.
 
-## Key features added
+## Key features
 - OpenAI integration for natural-language analysis and structured insights.
 - Environment-driven configuration (OPENAI_API_KEY, OPENAI_MODEL).
 
@@ -24,3 +24,4 @@ The project contains a containerized FastAPI backend and a React frontend to dem
    npm install
    npm run dev
    ```
+   
