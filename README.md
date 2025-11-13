@@ -1,4 +1,4 @@
-# Smart Credit Analysis — OpenAI Enhanced
+# Smart Credit Analysis — OpenAI
 
 The project contains a containerized FastAPI backend and a React frontend to demonstrate a stateless pipeline for extracting transaction data from bank statements and producing a PDF Credit Trust Score report enriched by OpenAI.
 
@@ -24,6 +24,3 @@ The project contains a containerized FastAPI backend and a React frontend to dem
    npm install
    npm run dev
    ```
-## Notes on privacy & statelessness
-- The API is designed to process uploads in-memory and not persist PII by default.
-- If you enable cloud storage for debugging, enforce retention and encryption.
